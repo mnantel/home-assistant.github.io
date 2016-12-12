@@ -23,6 +23,12 @@ Make sure you have the correct dependencies installed before running the script:
 $ sudo apt-get install cython3 libudev-dev python3-sphinx python3-setuptools git
 ```
 
+At this point, you will want to switch to the virtual environnement proper to your platform. The following is an example where that environment resides under /srv/homeassistant:
+
+```
+source /srv/homeassistant/bin/activate
+```
+
 Make sure you have at least version 0.23 and at the most 0.24.1 of cython.
 
 ```bash
